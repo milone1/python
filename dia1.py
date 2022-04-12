@@ -6,7 +6,7 @@ print("3.- De soles a Euros");
 print("4.- De Euros a soles");
 option = "0"
 
-while(option == "0"):
+while(option == "0"):   
     value = input("Ingrese el monto:")
     option = input("Ingrese una opcion: ");
     if(option == "1"):
