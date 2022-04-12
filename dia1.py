@@ -1,5 +1,4 @@
 #programa que cambie de monedas.
-value = input("Ingrese el monto:")
 print("===========OPCIONES=========");
 print("1.- De soles a Dolares");
 print("2.- De Dolares a soles");
@@ -8,6 +7,7 @@ print("4.- De Euros a soles");
 option = "0"
 
 while(option == "0"):
+    value = input("Ingrese el monto:")
     option = input("Ingrese una opcion: ");
     if(option == "1"):
         dollar = float(value) / 3.80
