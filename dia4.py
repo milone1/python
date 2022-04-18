@@ -22,3 +22,4 @@ tico = Automovil(1970,"VH-159","rojo","tico")
 #utilizar el objeto
 vw.encender()
 tico.frenar()
+
