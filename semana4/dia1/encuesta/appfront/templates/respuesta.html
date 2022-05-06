@@ -1,0 +1,12 @@
+<h2>{{ titulo }}</h2>
+<ol>
+    <li>nombre: {{ nombre }}</li>
+    <li>Rol favorito: {{ rol }}</li>
+    <li>Idiomas:
+        <ul>
+            {% for idioma in idiomas %}
+                <li>{{ idioma }}</li>
+            {% endfor %}
+        </ul>
+    </li>
+</ol>
