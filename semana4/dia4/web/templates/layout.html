@@ -13,6 +13,7 @@
 
     <link rel="stylesheet" href="{% static 'css/font-awesome.min.css' %}">
     <link rel="stylesheet" href="{% static 'css/ionicons.min.css' %}">
+
     <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
     <link rel="stylesheet" href="{% static 'css/jquery.formstyler.css' %}">
     <link rel="stylesheet" href="{% static 'css/flexslider.css' %}">
@@ -20,6 +21,7 @@
     <link rel="stylesheet" href="{% static 'css/ion.rangeSlider.css' %}">
     <link rel="stylesheet" href="{% static 'css/jquery.mThumbnailScroller.css' %}">
     <link rel="stylesheet" href="{% static 'css/chosen.css' %}">
+
     <link rel="stylesheet" href="{% static 'css/style.css' %}">
     <link rel="stylesheet" href="{% static 'css/elements.css' %}">
     <link rel="stylesheet" href="{% static 'css/media.css' %}">
@@ -302,8 +304,10 @@
         <div id="primary" class="content-area">
             <main id="main" class="site-main">
                 <div class="cont maincont">
+
                     {% block content %}
                     {% endblock %}
+
                 </div>
             </main><!-- #main -->
         </div><!-- #primary -->
