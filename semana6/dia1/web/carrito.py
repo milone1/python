@@ -47,5 +47,3 @@ class Cart:
         self.session["cartMontoTotal"] = montoTotal
         self.session["cart"] = self.cart
         self.session.modified = True
-
-        

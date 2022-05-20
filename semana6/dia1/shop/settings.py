@@ -20,7 +20,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-1tgf9)=af0l8*a#!l+wmo!jr7=fmb0-9+ro_32-293tivgk%xb'
+SECRET_KEY = 'django-insecure-08ng*6@78v9)#^=f$$!efr6^i1rt@r)m)n$y0&q!j52a43i^jg'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -32,6 +32,7 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     'web',
+    'paypal.standard.ipn',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -77,10 +78,10 @@ WSGI_APPLICATION = 'shop.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'db_shop',
-        'USER': 'root',
-        'PASSWORD': '12demetrio34',
-        'HOST': '127.0.0.1',
+        'NAME': 'bosvb2iy2nkjx6ujxe93',
+        'USER': 'uhmnplc4ntabwf6l',
+        'PASSWORD': 'UJtf4tLiuAvSONF907VL',
+        'HOST': 'bosvb2iy2nkjx6ujxe93-mysql.services.clever-cloud.com',
         'PORT': '3306',
     }
 }
@@ -129,6 +130,9 @@ STATIC_URL = '/static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-import os 
+import os
 MEDIA_ROOT = os.path.join(BASE_DIR,'media')
 MEDIA_URL = '/media/'
+
+PAYPAL_TEST = True
+PAYPAL_RECEIVER_EMAIL = 'sb-a8whr15390170@business.example.com'
