@@ -1,0 +1,21 @@
+[{
+    "fecha":"",
+    "alumno":{
+        "codigo": 1,
+        "nombre": "Erick Milan"
+    },
+    "cursos":[
+        {
+            "nombre": "python",
+            "nota": 12
+        },
+        {
+            "nombre": "flask",
+            "nota": 15
+        },
+        {
+            "nombre": "django",
+            "nota": 20
+        }
+    ]
+}]
